@@ -45,3 +45,93 @@ button {
   font-weight: 800;
   box-shadow: 0 0 12px rgba(250, 204, 21, 0.6);
 }
+
+@media (max-width: 700px) {
+  .app-main {
+    padding: 22px 16px;
+    overflow-x: hidden;
+  }
+
+  .page-heading {
+    display: grid;
+    gap: 18px;
+    margin-bottom: 22px;
+  }
+
+  .page-heading h1 {
+    font-size: 46px;
+    line-height: 1.05;
+  }
+
+  .header-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .search-pill {
+    grid-column: 1 / -1;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .secondary-button {
+    width: 100%;
+    min-height: 48px;
+    border-radius: 14px;
+    background: #ffffff;
+    border: 1px solid #dbe7f2;
+  }
+
+  .scanner-panel-clean {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .scanner-icon {
+    margin: 0 auto;
+  }
+
+  .scanner-panel-clean h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .scanner-panel-clean p {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .scanner-controls-clean {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .scanner-controls-clean input,
+  .scan-button,
+  .phone-scan-button {
+    width: 100%;
+    min-height: 48px;
+  }
+
+  .delivery-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .stop-list.compact {
+    grid-template-columns: 1fr;
+  }
+
+  .report-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .report-details,
+  .processed-accordion {
+    grid-template-columns: 1fr;
+  }
+}
