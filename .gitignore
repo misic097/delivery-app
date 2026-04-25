@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+# env (tajne)
+.env
+.env.*
+
+# baze (SQLite)
+*.db
+*.sqlite
+
+# build
+dist/
+build/
+
+# logovi
+*.log
+
+# system
+.DS_Store
