@@ -1,0 +1,47 @@
+:root {
+  color-scheme: light;
+  --bg: #f4f7fb;
+  --panel: #ffffff;
+  --panel-soft: #eef4f8;
+  --ink: #16212f;
+  --muted: #657487;
+  --line: #dce5ee;
+
+  --primary: #1f6f8b;
+  --primary-strong: #17546a;
+
+  --success: #247a4d;
+  --warning: #b66b00;
+  --danger: #b43d3d;
+  --info: #4267b2;
+
+  font-family: Inter, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.search-pill.bonus {
+  background: #fff3cd;
+  border-color: #facc15;
+  color: #92400e;
+  font-weight: 800;
+  box-shadow: 0 0 12px rgba(250, 204, 21, 0.6);
+}

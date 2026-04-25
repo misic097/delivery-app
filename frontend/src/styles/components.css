@@ -1,0 +1,28 @@
+.primary-button {
+  background: var(--primary);
+  color: white;
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.icon-button {
+  width: 38px;
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: white;
+}
+
+.icon-button.success { color: var(--success); }
+.icon-button.warning { color: var(--warning); }
+.icon-button.info { color: var(--info); }
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.status-delivered { background: #d8f5e5; }
+.status-not_delivered { background: #ffe2e2; }
+.status-redirected { background: #dfeaff; }

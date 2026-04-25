@@ -1,0 +1,15 @@
+{
+  "name": "delivery-app-backend",
+  "version": "1.0.0",
+  "description": "Express and SQLite API for the Delivery Driver Web App",
+  "main": "server.cjs",
+  "scripts": {
+    "start": "node server.cjs",
+    "dev": "node --watch server.cjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}

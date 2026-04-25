@@ -1,0 +1,116 @@
+/* ===== SCANNER HEADER ===== */
+.scanner-panel-clean {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+
+  background: #ffffff;
+  border: 1px solid #dbe7f2;
+  border-radius: 18px;
+  padding: 16px 20px;
+}
+
+.scanner-controls-clean {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* ===== DELIVERY PANEL ===== */
+.delivery-layout {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 20px;
+  align-items: start;
+  margin-top: 16px;
+}
+
+.delivery-panel,
+.stops-panel {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 18px;
+  border: 1px solid #e5edf5;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
+}
+
+.stops-panel {
+  max-height: 230px;
+  overflow-y: auto;
+}
+
+/* ===== STOPS LIST ===== */
+.stop-list.compact {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.stop-row {
+  width: 100%;
+  border-radius: 14px;
+  padding: 10px 12px;
+  background: #f8fbff;
+  border: 1px solid #dbe7f2;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+  font-size: 13px;
+  line-height: 1.3;
+  transition: 0.2s;
+}
+
+.stop-row:hover {
+  background: #eef7fb;
+}
+
+.stop-row.active {
+  border-color: #0f7490;
+  background: #e6f7fb;
+  box-shadow: 0 6px 16px rgba(15, 116, 144, 0.15);
+}
+
+.stop-row strong {
+  display: block;
+  font-size: 14px;
+}
+
+.stop-row span {
+  color: #64748b;
+}
+
+/* ===== PACKAGE CARD ===== */
+.delivery-package-card {
+  background: #f8fbff;
+  border-radius: 14px;
+  padding: 12px;
+  border: 1px solid #e5edf5;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+
+.delivery-package-card:hover {
+  background: #eef7fb;
+}
+
+/* ===== ACTION BUTTONS ===== */
+.icon-button {
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.icon-button.success:hover {
+  background: #d1fae5;
+}
+
+.icon-button.warning:hover {
+  background: #fee2e2;
+}
+
+.icon-button.info:hover {
+  background: #dbeafe;
+}
