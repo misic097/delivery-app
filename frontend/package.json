@@ -1,4 +1,5 @@
 {
+  "homepage": "https://misic097.github.io/delivery-app",
   "name": "delivery-app-frontend",
   "version": "1.0.0",
   "description": "React frontend for the Delivery Driver Web App",
@@ -7,7 +8,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.2.1",
@@ -16,4 +20,5 @@
     "react-dom": "^18.3.1",
     "vite": "^4.5.5"
   }
+  
 }
